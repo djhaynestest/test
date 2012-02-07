@@ -112,7 +112,7 @@
       <!-- =============================================================================== -->
       <xsd:element name="pkgutil_item" substitutionGroup="oval-sc:item">
             <xsd:annotation>
-                  <xsd:documentation>This item stores system state information associated with packages installed on a Mac OS system.</xsd:documentation>
+                  <xsd:documentation>This item stores system state information associated with packages installed on a Mac OS system. Adding more documentation to the pkgutil_item.</xsd:documentation>
             </xsd:annotation>
             <xsd:complexType>
                   <xsd:complexContent>
