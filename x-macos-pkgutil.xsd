@@ -3,7 +3,7 @@
       <xsd:import namespace="http://oval.mitre.org/XMLSchema/oval-definitions-5" schemaLocation="oval-definitions-schema.xsd"/>
       <xsd:import namespace="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" schemaLocation="oval-system-characteristics-schema.xsd"/>
       <xsd:annotation>
-            <xsd:documentation>The following is a proposal for the experimental macos-def:pkgutil_test and macos-sc:pkgutil_item that will support checking a Mac OS system to see if a particular package is installed.</xsd:documentation>
+            <xsd:documentation>The following is a proposal for the experimental macos-def:pkgutil_test and macos-sc:pkgutil_item that will support checking a Mac OS system to see if a particular package is installed. More documentation.</xsd:documentation>
             <xsd:appinfo>
                   <schema>Experimental Mac OS Pkgutil Schema</schema>
                   <version>5.10.1 Release Candidate 1</version>
