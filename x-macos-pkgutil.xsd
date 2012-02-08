@@ -20,7 +20,7 @@
       <!-- =============================================================================== -->
       <xsd:element name="pkgutil_test" substitutionGroup="oval-def:test">
             <xsd:annotation>
-                  <xsd:documentation>This test supports the collection of system state information related to packages installed using the pkgutil utility on Mac OS systems. See pkgutil(1) for more information.</xsd:documentation>
+                  <xsd:documentation>This test testing supports the collection of system state information related to packages installed using the pkgutil utility on Mac OS systems. See pkgutil(1) for more information.</xsd:documentation>
                   <xsd:appinfo>
                         <oval:element_mapping>
                               <oval:test>pkgutil_test</oval:test>
