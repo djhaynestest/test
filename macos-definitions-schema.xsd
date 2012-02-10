@@ -20,7 +20,7 @@
       <!-- =============================================================================== -->
       <xsd:element name="accountinfo_test" substitutionGroup="oval-def:test">
             <xsd:annotation>
-                  <xsd:documentation>User account information (username, uid, gid, etc.) See netinfo(5) for field information, niutil(1) for retrieving it. As of Mac OS 10.5, niutil(1) is no longer available, however, the same functionality can be obtained using dscl(1). Specifically, the command 'dscl . -list /Users' can be used to list all users and the command 'dscl . -read /Users/some_user passwd uid gid realname home shell' can be used to retrieve the attributes associated with an account.</xsd:documentation>
+                  <xsd:documentation>User account aaaainformation (username, uid, gid, etc.) See netinfo(5) for field information, niutil(1) for retrieving it. As of Mac OS 10.5, niutil(1) is no longer available, however, the same functionality can be obtained using dscl(1). Specifically, the command 'dscl . -list /Users' can be used to list all users and the command 'dscl . -read /Users/some_user passwd uid gid realname home shell' can be used to retrieve the attributes associated with an account.</xsd:documentation>
                   <xsd:appinfo>
                         <oval:element_mapping>
                               <oval:test>accountinfo_test</oval:test>
