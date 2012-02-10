@@ -9,7 +9,7 @@
                   <schema>MacOS Definition</schema>
                   <version>5.10.1</version>
                   <date>1/27/2012 1:22:32 PM</date>
-                  <terms_of_use>Copyright (c) 2002-2012, The MITRE Corporation. All rights reserved.  The contents of this file are subject to the terms of the OVAL License located at http://oval.mitre.org/oval/about/termsofuse.html. See the OVAL License for the specific language governing permissions and limitations for use of this schema.  When distributing copies of the OVAL Schema, this license header must be included.</terms_of_use>
+                  <terms_of_use>Copyright (c) 2002-2012, Theaaaaaaa MITRE Corporation. All rights reserved.  The contents of this file are subject to the terms of the OVAL License located at http://oval.mitre.org/oval/about/termsofuse.html. See the OVAL License for the specific language governing permissions and limitations for use of this schema.  When distributing copies of the OVAL Schema, this license header must be included.</terms_of_use>
                   <sch:ns prefix="oval-def" uri="http://oval.mitre.org/XMLSchema/oval-definitions-5"/>
                   <sch:ns prefix="macos-def" uri="http://oval.mitre.org/XMLSchema/oval-definitions-5#macos"/>
                   <sch:ns prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance"/>
@@ -53,7 +53,7 @@
       </xsd:element>
       <xsd:element name="accountinfo_object" substitutionGroup="oval-def:object">
             <xsd:annotation>
-                  <xsd:documentation>The accountinfo_object element is used by an accountinfo_test to define the object(s) to be evaluated. This object extends the standard ObjectType as defined in the oval-definitions-schema and one should refer to the ObjectType description for more information. The common set element allows complex objects to be created using filters and set logic. Again, please refer to the description of the set element in the oval-definitions-schema.</xsd:documentation>
+                  <xsd:documentation>The accountinfo_object element is aaaaaaaaused by an accountinfo_test to define the object(s) to be evaluated. This object extends the standard ObjectType as defined in the oval-definitions-schema and one should refer to the ObjectType description for more information. The common set element allows complex objects to be created using filters and set logic. Again, please refer to the description of the set element in the oval-definitions-schema.</xsd:documentation>
                   <xsd:documentation>An accountinfo_object consists of a single username that identifies the account from which to gather information.</xsd:documentation>
                   <xsd:appinfo>
                         <sch:pattern id="macos-def_accountinfo_object_verify_filter_state">
@@ -1142,7 +1142,7 @@
                   <xsd:appinfo>
                         <oval:deprecated_info>
                               <oval:version>5.9</oval:version>
-                              <oval:reason>Replaced by the pwpolicy59_state. The username, userpass, and directory_node entities in the pwpolicy_state were underspecified and as a result their meaning was uncertain. A new state was created to resolve this issue. See the pwpolicy59_state.</oval:reason>
+                              <oval:reason>Replaced by the pwpolicy59_state. The useaaaaaaarname, userpass, and directory_node entities in the pwpolicy_state were underspecified and as a result their meaning was uncertain. A new state was created to resolve this issue. See the pwpolicy59_state.</oval:reason>
                               <oval:comment>This state has been deprecated and may be removed in a future version of the language.</oval:comment>
                         </oval:deprecated_info>
                         <sch:pattern id="macos-def_pwpolicy_state_dep">
